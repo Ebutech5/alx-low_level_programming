@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* _isalpha - writes a function that checks alphabetic character
-* @c: function parameter
-* Return: Always 0 (Success)
+*_isalpha - write a function that checks alphabetic character
+*@c: function parameter
+* Return: Always 1 0
 */
 
 int _isalpha(int c)

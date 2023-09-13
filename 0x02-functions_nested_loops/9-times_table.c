@@ -16,7 +16,7 @@ void times_table(void)
 		{
 			sum = i * j;
 			if (j == 0)
-				printf("2%d, ", sum);
+				printf("%d, ", sum);
 			else
 			{
 				printf("%2d", sum);

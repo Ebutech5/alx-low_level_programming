@@ -1,5 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdlib.h>
+#include <stdio.h>
+#include <stddef.h>
 
 /**
  * struct dog - define a new type element
@@ -16,5 +19,5 @@ struct dog
 	float age;
 	char *owner;
 };
-
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif

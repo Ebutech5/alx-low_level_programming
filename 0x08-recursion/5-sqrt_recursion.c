@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
 /**
  * actual_sqrt_recursion - recurses the natural square root
  * @n: number to cal square root of
- * @i: iteration 
+ * @i: iteration
  *
  * Return: square root
  */
